@@ -35,4 +35,12 @@ Abrufen von Information der Webseite von einem Ratsinfosystem (Dresden).
 
 in Zeile 255 wird der befehl zum schreiben in die Datenbank ausgeführt 
 
-[ $erg = sql_db($sql, null); ]
+    $erg = sql_db($sql, null); 
+
+
+#PHP Simple HTML DOM Parser
+
+simple_html_dom.php
+
+online Docu: http://simplehtmldom.sourceforge.net/manual.htm
+
