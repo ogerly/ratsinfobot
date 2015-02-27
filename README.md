@@ -1,5 +1,5 @@
 # ratsinfobot (PHP)
-Abrufen von Information der Webseite von einem Ratsinfosystem (Dresden).
+Abrufen von Informationen von einem Ratsinformationssystems (Beispiel: Dresden).
 
 
 #Installation Lokal
@@ -14,7 +14,7 @@ Abrufen von Information der Webseite von einem Ratsinfosystem (Dresden).
     
 2. importieren sie die ratsinfo.sql in ihre Lokale Datenbank
 
-3. pasen sie die setup.php an.
+3. passen sie die setup.php an.
     ab Zeile 23 bis 26.
 
      .....
@@ -33,7 +33,7 @@ Abrufen von Information der Webseite von einem Ratsinfosystem (Dresden).
 
 #in Datenbank schreiben
 
-in Zeile 255 wird der befehl zum schreiben in die Datenbank ausgeführt 
+in index.php Zeile 255 wird der Befehl zum schreiben in die Datenbank ausgeführt 
 
     $erg = sql_db($sql, null); 
 
