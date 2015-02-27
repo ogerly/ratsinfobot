@@ -1,5 +1,6 @@
 # ratsinfobot (PHP)
 Abrufen von Informationen von einem Ratsinformationssystems (Beispiel: Dresden).
+Z.z. werden nur Mandatsträger und ihre Informationen abgerufen und als Rohdaten gespeichert.
 
 
 #Installation Lokal
