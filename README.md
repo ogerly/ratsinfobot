@@ -1,11 +1,11 @@
-# ratsinfobot
-Abrufen der Information der Webseite von einem Ratsinfosystem (Dresden)
+# ratsinfobot (PHP)
+Abrufen von Information der Webseite von einem Ratsinfosystem (Dresden).
 
 
 #Installation Lokal
 
 1. einen Ordner im Lokalen Verzeichniss anlegen
-   in dem sich folgende Dateien befinde.
+   in dem sich folgende Dateien befinden:
     - index.php
     - php.ini
     - setup.php
@@ -29,3 +29,10 @@ Abrufen der Information der Webseite von einem Ratsinfosystem (Dresden)
      ....
      
 4. Starten sie die index.php local in ihrem Browser.
+
+
+#in Datenbank schreiben
+
+in Zeile 255 wird der befehl zum schreiben in die Datenbank ausgeführt 
+
+[ $erg = sql_db($sql, null); ]
